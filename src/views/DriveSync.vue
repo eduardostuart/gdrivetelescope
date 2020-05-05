@@ -125,7 +125,7 @@ export default Vue.extend({
               <p>{{ prettySize(totalSize) }}</p>
             </div>
             <div class="drive-syncing__body-stop">
-              <form-button theme="pink-outline" size="xs">stop</form-button>
+              <form-button @click.prevent="stop" theme="pink-outline" size="xs">stop</form-button>
             </div>
           </div>
           <div class="drive-syncing__warning">
