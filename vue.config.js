@@ -20,7 +20,8 @@ module.exports = {
     themeColor: '#3C366B',
     msTileColor: '#3C366B',
     manifestOptions: {
-      start_url: '/'
+      start_url: '/',
+      splash_pages: null
     },
     assetsVersion: gitRevisionPlugin.version(),
     manifestCrossorigin: ifProduction(undefined, 'use-credentials')
